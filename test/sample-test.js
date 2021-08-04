@@ -10,6 +10,5 @@ describe("Chainshot", function () {
 
       await chainshot.change();
       assert.equal(await chainshot.x(), 9)
-      
     });
 });
